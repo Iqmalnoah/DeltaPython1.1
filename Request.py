@@ -1,7 +1,7 @@
 import requests
 
 # Set the target webpage
-url = ('http://www.wikipedia.org')
+url = ('http://172.18.58.238')
 r = requests.get(url)
 # This will get the full page
 print(r.text)

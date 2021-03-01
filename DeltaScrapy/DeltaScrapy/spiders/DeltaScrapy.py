@@ -2,7 +2,9 @@ import scrapy
 
 class NewSpider(scrapy.Spider):
     name = 'new_spider'
-    start_urls = ['http://www.wikipedia.org',
+    start_urls = ['http://172.18.58.238/index.php',
+                  'http://172.18.58.238/photography.php',
+                  'http://172.18.58.238/',
 
                    ]
     def parse(self, response):
